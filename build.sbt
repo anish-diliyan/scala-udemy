@@ -21,5 +21,11 @@ libraryDependencies ++= Seq(
   "org.apache.logging.log4j" % "log4j-api" % logVersion,
   "org.apache.logging.log4j" % "log4j-core" % logVersion,
   // pgsql for Db connectivity
-  "org.postgresql" % "postgresql" % postgresVersion
+  "org.postgresql" % "postgresql" % postgresVersion,
+  // testing
+  "junit" % "junit" % "4.13.2" % Test,
+  "com.novocode" % "junit-interface" % "0.11" % Test
 )
+
+// Add this to ensure JUnit tests are run
+testOptions += Tests.Argument(TestFrameworks.JUnit, "-v", "-a")
