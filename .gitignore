@@ -1,5 +1,3 @@
-.bsp/
-.idea/
 target/
 /scala-advanced/target
 /scala-core/target
