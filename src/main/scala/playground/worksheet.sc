@@ -1,18 +1,12 @@
-val list1 = List("a", "b", "c", "d")
-val list2 = List(1, 2, 3)
-val result = list1.zip(list2).toMap
-println(result)
+import java.sql.Timestamp
+import java.text.SimpleDateFormat
 
-import org.apache.spark.sql.{Row, SparkSession}
-import org.apache.spark.sql.types._
-
-case class Person(id: Int, name: String, age: Option[Int])
-
-object JoinWithNull extends App {
-  val staging = Seq[Person](
-    Person(1, "A", Some(10)),
-    Person(2, "B", None)
-  ).toDF("id", "name", "age")
-  val master = Seq[Person]().toDF("id", "name", "age")
-  staging.join(master, staging("id") === master("id"), "left").show()
+def toTimestamp(str: String): Timestamp = {
+  val dateFormat = new SimpleDateFormat("yyyy-MM-dd")
+  val parsedDate = dateFormat.parse(str)
+  new Timestamp(parsedDate.getTime)
 }
+
+val result = toTimestamp("2018-01-01")
+
+println(result)

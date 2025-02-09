@@ -1,4 +1,9 @@
 .bsp/
 .idea/
-./target/
-./project/target/
+target/
+/scala-advanced/target
+/scala-core/target
+/spark-core/target
+/spark-practice/target
+postgres/data/
+postgres/logs/
