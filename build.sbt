@@ -37,7 +37,7 @@ testOptions += Tests.Argument(TestFrameworks.JUnit, "-v", "-a")
 
 // Root project settings
 lazy val root = (project in file("."))
-  .aggregate(scalaCore, scalaAdvanced, sparkCore, sparkPractice)
+  .aggregate(scalaCore, scalaAdvanced, sparkCore, sparkPractice, scalaAnything)
   .settings(
     name := "scala-udemy",
     version := "0.1",
@@ -72,3 +72,9 @@ lazy val sparkPractice = (project in file("spark-practice"))
     libraryDependencies ++= sparkDependencies
   )
 
+// Scala Anything
+lazy val scalaAnything = (project in file("scala-anything"))
+  .settings(
+    name := "scala-anything",
+    libraryDependencies ++= commonDependencies ++ sparkDependencies ++ dbDependencies
+  )

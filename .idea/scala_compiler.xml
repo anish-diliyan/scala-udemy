@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="sbt 1" modules="scala-udemy,scala-udemy.scala-advanced,scala-udemy.scala-core,scala-udemy.spark-core,scala-udemy.spark-practice,scala-udemy_1745" />
+    <profile name="sbt 1" modules="scala-udemy,scala-udemy.scala-advanced,scala-udemy.scala-anything,scala-udemy.scala-core,scala-udemy.spark-core,scala-udemy.spark-practice,scala-udemy_1745" />
   </component>
 </project>
