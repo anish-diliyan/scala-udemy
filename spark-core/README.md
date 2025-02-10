@@ -1,22 +1,29 @@
-This setup provides:
+<div style="text-align: center"><h2>Big Data</h2></div>
+<div style="text-align: center"><h4>
+Can not fit and processed on standard computer, so you will need a cluster of computer that can store and process the data.
+</h4></div>
 
-An embedded H2 database running in PostgreSQL compatibility mode
+<div style="text-align: center"><h2>What is Spark</h2></div>
+<div style="text-align: center"><h4>
+Unified computing engine and libraries for distributed data processing at scale, so that working with BIg Data became easier.
+</h4></div>
 
-No installation required
+### Unified
+* Spark has hundreds of libraries for data processing, but it's unified in the sense that it has a set of consistent and composable
+APIs and Spark supports multiple languages and all the APIs look very similarly, if not the same in all these languages.
 
-Persistent storage (data is saved to ./data/morgan_db)
+* It's also unified in the sense that Spark can do optimizations across the different libraries, so not within a set of libraries.
+for example, you're doing machine learning task on top of some data sets or data frames, and these are obtained with Spark SQL, 
+which is another set of libraries, Spark is smart enough to optimize your code and optimize the execution of that code on the 
+cluster across the machine learning and the Spark sequel libraries.
 
-Slick integration for type-safe database queries
+### Computing engine
+Spark is a computing engine, meaning that it's completely detached from where the data resides and how the data is being fetched.
+Spark also supports a set of libraries used for data processing. Spark comes with a set of standard libraries, including sequel, 
+machine learning, lib streaming and graphx out of the box. But there are also hundreds of open source third party libraries for 
+specific use cases.
 
-Connection pooling with HikariCP
-
-Basic repository pattern implementation
-
-Unit tests
-
-Sample application
-
-The database file will be created automatically in the data directory of your project. The data persists between runs, making it suitable for development work. If you need to reset the database, simply delete the files in the data directory.
-
-This approach is perfect for development and testing, but remember that there might be some slight differences between H2's PostgreSQL mode and a real PostgreSQL database. For production, you should switch to a real PostgreSQL database.
-
+### Spark Api Architecture
+* **Low Level Apis:** RDDs and Distributed Variables
+* **High Level (Structured) Apis:** DataFrame, DataSets, Spark Sql
+* **Applications:** Streaming, ML, GraphX, Other Libraries
