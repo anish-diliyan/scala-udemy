@@ -4,7 +4,9 @@ set PATH=%BASE_DIR%installer\bin;%PATH%
 set PGDATA=%BASE_DIR%data
 set PGLOGS=%BASE_DIR%logs
 
-REM Start PostgreSQL
+echo Stopping PostgreSQL server...
+pg_ctl.exe -D "%PGDATA%" stop -m fast
+
 echo Starting PostgreSQL server...
 pg_ctl.exe -D "%PGDATA%" -l "%PGLOGS%\postgresql.log" start -w
 
