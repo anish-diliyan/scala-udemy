@@ -1,6 +1,5 @@
 package tutorial.join
 
-import org.apache.spark.sql.SparkSession
 
 case class Transaction(id: Int, name: String)
 case class Linkage(id: Int, ultimateId: Int)

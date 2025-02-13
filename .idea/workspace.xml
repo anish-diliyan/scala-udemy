@@ -5,7 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecbea836-8c25-4a05-8687-e0a8ada06f09" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/constants/ImplicitConstants.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/constants/SourceConstants.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/constants/SourceToTableMapping.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/constants/TableConstants.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/constants/UtilityConstants.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/functions/ImplicitFunctions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/functions/UtilityFunctions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/models/SourceModel.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/models/TablesModel.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/playground/add_cp_id_for_duplicates/AddCpIdForDuplicates.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/playground/csp_is_overriden/CspIsOverridden.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/playground/csp_is_overriden/Source.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/playground/csp_is_overriden/Tables.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/playground/csp_source_field_name/CspSourceFieldName.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/playground/join_examples/Example1LeftAntiJoin.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/playground/remove_noise_words/RemoveNoiseWords.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/playground/unique_identification/SourceData.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/playground/unique_identification/TablesData.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/playground/unique_identification/UniqueIdentificationApp.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/tutorial/join/Example2LeftAnti.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/morgan/constants/SourceToTableMapping.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/morgan/constants/SourceToTableMapping.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/tutorial/join/Example1WithColumn.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/tutorial/join/Example1WithColumn.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,56 +83,67 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CountCharacters.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CspIsOverridden.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Duplicates.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Example1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Example1WithColumn.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Example1WordCount.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GenerateAndAssign.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JoinCaseClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JoinExample1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JoinWithNull.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MorganApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Question2OrderedAllProducts.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SourceToTable.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TestConnection.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UtilityFunctions.executor&quot;: &quot;Run&quot;,
-    &quot;Batch.db-setup.executor&quot;: &quot;Run&quot;,
-    &quot;Batch.setup-pgsql.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserRepositorySpec.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/learning/scala-udemy/build.sbt&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AddCpIdForDuplicates.executor": "Run",
+    "Application.CountCharacters.executor": "Run",
+    "Application.CspIsOverridden.executor": "Run",
+    "Application.CspSourceFieldName.executor": "Run",
+    "Application.Duplicates.executor": "Run",
+    "Application.Example1.executor": "Run",
+    "Application.Example1LeftAntiJoin.executor": "Run",
+    "Application.Example1WithColumn.executor": "Run",
+    "Application.Example1WordCount.executor": "Run",
+    "Application.GenerateAndAssign.executor": "Run",
+    "Application.JoinCaseClass.executor": "Run",
+    "Application.JoinExample1.executor": "Run",
+    "Application.JoinWithNull.executor": "Run",
+    "Application.MorganApp.executor": "Run",
+    "Application.Question2OrderedAllProducts.executor": "Run",
+    "Application.RemoveNoiseWords.executor": "Run",
+    "Application.SourceToTable.executor": "Run",
+    "Application.TestConnection.executor": "Run",
+    "Application.UniqueIdentificationApp.executor": "Run",
+    "Application.UtilityFunctions.executor": "Run",
+    "Application.ex1_csp_is_overriden.CspIsOverridden.executor": "Run",
+    "Application.playground.csp_is_overriden.CspIsOverridden.executor": "Run",
+    "Batch.db-setup.executor": "Run",
+    "Batch.setup-pgsql.executor": "Run",
+    "JUnit.UserRepositorySpec.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/learning/scala-udemy/spark-practice/src/main/scala",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\learning\scala-udemy\spark-practice\src\main\scala" />
       <recent name="D:\learning\spark-udemy\spark-practice" />
       <recent name="D:\learning\spark-udemy\spark-core" />
       <recent name="D:\learning\spark-udemy\scala-core" />
       <recent name="D:\learning\spark-udemy" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\learning\scala-udemy\spark-core\images" />
       <recent name="D:\learning\scala-udemy\postgres" />
       <recent name="D:\learning\spark-udemy\postgres" />
       <recent name="D:\learning\spark-udemy" />
       <recent name="D:\learning\spark-udemy\postgres\installer" />
-      <recent name="D:\learning\spark-udemy\postgres\sql" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="playground.unique_identification" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountCharacters">
-    <configuration name="CountCharacters" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="interview.scala.CountCharacters" />
-      <module name="scala-udemy" />
+  <component name="RunManager" selected="Application.RemoveNoiseWords">
+    <configuration name="AddCpIdForDuplicates" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="playground.add_cp_id_for_duplicates.AddCpIdForDuplicates" />
+      <module name="scala-udemy.spark-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interview.scala.*" />
+          <option name="PATTERN" value="playground.add_cp_id_for_duplicates.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JoinCaseClass" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="exercise.JoinCaseClass" />
-      <module name="scala-udemy" />
+    <configuration name="CspSourceFieldName" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="playground.csp_source_field_name.CspSourceFieldName" />
+      <module name="scala-udemy.spark-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercise.*" />
+          <option name="PATTERN" value="playground.csp_source_field_name.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,38 +164,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MorganApp" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="MorganApp" />
-      <module name="scala-udemy.spark-core" />
+    <configuration name="Example1LeftAntiJoin" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="playground.join_examples.Example1LeftAntiJoin" />
+      <module name="scala-udemy.spark-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="playground.join_examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestConnection" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="TestConnection" />
-      <module name="scala-udemy.spark-core" />
+    <configuration name="RemoveNoiseWords" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="playground.remove_noise_words.RemoveNoiseWords" />
+      <module name="scala-udemy.spark-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="playground.remove_noise_words.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="setup-pgsql" type="BatchConfigurationType" factoryName="Batch" temporary="true">
-      <module name="scala-udemy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../spark-udemy" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="setup-pgsql.cmd" />
-      <option name="PARAMETERS" value="" />
+    <configuration name="UniqueIdentificationApp" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="playground.unique_identification.UniqueIdentificationApp" />
+      <module name="scala-udemy.spark-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="playground.unique_identification.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Batch.setup-pgsql" />
-        <item itemvalue="Application.TestConnection" />
-        <item itemvalue="Application.MorganApp" />
-        <item itemvalue="Application.JoinCaseClass" />
-        <item itemvalue="Application.CountCharacters" />
+        <item itemvalue="Application.RemoveNoiseWords" />
+        <item itemvalue="Application.CspSourceFieldName" />
+        <item itemvalue="Application.AddCpIdForDuplicates" />
+        <item itemvalue="Application.Example1LeftAntiJoin" />
+        <item itemvalue="Application.UniqueIdentificationApp" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +231,9 @@
     <envs>
       <env key="Path" value="C:\Users\kumar_ani\AppData\Local\Programs\Git\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;./postgres/bin" />
     </envs>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

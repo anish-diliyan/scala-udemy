@@ -1,6 +1,6 @@
-package morgan.constants
+package constants
 
-import morgan.constants.SourceConstants._
+import SourceConstants._
 import TableConstants.{CSP_BUS_DT, _}
 
 object SourceToTableMapping {
