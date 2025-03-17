@@ -5,33 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecbea836-8c25-4a05-8687-e0a8ada06f09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-cmp/src/main/scala/caspian/CaspianContext.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-cmp/src/main/scala/caspian/CaspianEnv.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-cmp/src/main/scala/caspian/CaspianProcess.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-cmp/src/main/scala/transaction/TransactionProcess.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-cmp/src/test/scala/TransactionProcess.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/common/DataFrameSchema.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/common/SparkSessionBuilder.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/data_frames/Ex1Basics.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/playground/add_cp_orig_nm/AddCpOrigNm.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/playground/apply_synonym/ApplySynonym.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/playground/insert_in_measure_calc/Example1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/practice_ms/GenerateCpIdFlow.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-cmp/src/main/scala/constants/AccountIdTypeId.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-core/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/DatabaseConnection.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/DatabaseSetup.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/EmployeeRepository.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/TestConnection.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/not_working/DatabaseConnection.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/not_working/DatabaseSetup.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/not_working/MorganApp.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/not_working/User.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/not_working/UserRepository.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/not_working/temp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-practice/src/main/scala/models/TablesModel.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/models/TablesModel.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-practice/src/main/scala/playground/add_cp_id_for_duplicates/AddCpIdForDuplicates.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/playground/add_cp_id_for_duplicates/AddCpIdForDuplicates.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-cmp/src/main/scala/transaction/TransactionProcess.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-cmp/src/main/scala/transaction/TransactionProcess.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-cmp/src/test/scala/TransactionProcess.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-cmp/src/test/scala/TransactionProcess.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

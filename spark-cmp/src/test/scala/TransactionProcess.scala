@@ -8,7 +8,7 @@ object TransactionProcess extends App {
     val context = CaspianContext()
     val currentDate = LocalDate.now().minusDays(1) // yesterday's date
     val environment = CaspianEnv.DEV
-    val arguments = Array.empty[String]  // empty arguments array
+    val arguments = Array(currentDate.toString, "executionId", "EBOSS,ISG") // empty arguments array
     // Run the process
     process.run(ctx = context, date = currentDate, env = environment, additionalArgs = arguments)
 }
