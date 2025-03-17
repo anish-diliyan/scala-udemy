@@ -26,10 +26,7 @@ lazy val sparkDependencies = Seq(
 
 // data base dependencies
 lazy val dbDependencies = Seq(
-  "org.postgresql" % "postgresql" % "42.7.5",
-  "com.typesafe.slick" %% "slick" % "3.5.2",
-  "com.typesafe.slick" %% "slick-hikaricp" % "3.5.2",
-  "org.flywaydb" % "flyway-core" % "11.3.1"  // For database migrations
+  "org.postgresql" % "postgresql" % "42.7.5"
 )
 
 // Test options
@@ -76,5 +73,11 @@ lazy val sparkPractice = (project in file("spark-practice"))
 lazy val scalaAnything = (project in file("scala-anything"))
   .settings(
     name := "scala-anything",
+    libraryDependencies ++= commonDependencies ++ sparkDependencies ++ dbDependencies
+  )
+
+lazy val sparkCmp = (project in file("spark-cmp"))
+  .settings(
+    name := "spark-cmp",
     libraryDependencies ++= commonDependencies ++ sparkDependencies ++ dbDependencies
   )

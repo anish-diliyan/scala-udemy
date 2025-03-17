@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/scala-advanced" />
             <option value="$PROJECT_DIR$/scala-anything" />
             <option value="$PROJECT_DIR$/scala-core" />
+            <option value="$PROJECT_DIR$/spark-cmp" />
             <option value="$PROJECT_DIR$/spark-core" />
             <option value="$PROJECT_DIR$/spark-practice" />
           </set>

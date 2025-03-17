@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="scalaAnything [file:/D:/learning/scala-udemy/]" external.linked.project.path="$MODULE_DIR$/../../scala-anything" external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" external.system.module.type="nestedProject" type="JAVA_MODULE" version="4">
+<module external.linked.project.id="sparkCmp [file:/D:/learning/scala-udemy/]" external.linked.project.path="$MODULE_DIR$/../../spark-cmp" external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" external.system.module.type="nestedProject" type="JAVA_MODULE" version="4">
   <component name="DisplayModuleName">
-    <option name="name" value="scala-anything" />
+    <option name="name" value="spark-cmp" />
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
-    <output url="file://$MODULE_DIR$/../../scala-anything/target/scala-2.12/classes" />
-    <output-test url="file://$MODULE_DIR$/../../scala-anything/target/scala-2.12/test-classes" />
+    <output url="file://$MODULE_DIR$/../../spark-cmp/target/scala-2.12/classes" />
+    <output-test url="file://$MODULE_DIR$/../../spark-cmp/target/scala-2.12/test-classes" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../scala-anything">
-      <excludeFolder url="file://$MODULE_DIR$/../../scala-anything/target" />
+    <content url="file://$MODULE_DIR$/../../spark-cmp">
+      <sourceFolder url="file://$MODULE_DIR$/../../spark-cmp/src/main/scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../spark-cmp/src/test/scala" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../spark-cmp/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

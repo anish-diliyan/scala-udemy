@@ -25,6 +25,7 @@ object AddCpIdForDuplicates extends App {
   )
 
   val transactionDF = spark.createDataFrame(transactions)
+  transactionDF.filter(col("uniqueId") === "1")
   val transactionWithCpIdDF = spark.createDataFrame(transactionWithCpId)
 
   // add cpId in transactionsDF if transactions exists in transactionsWithCpIdDF and remember same  cpID should be added

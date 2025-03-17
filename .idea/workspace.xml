@@ -5,30 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecbea836-8c25-4a05-8687-e0a8ada06f09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/constants/ImplicitConstants.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/constants/SourceConstants.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/constants/SourceToTableMapping.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/constants/TableConstants.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/constants/UtilityConstants.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/functions/ImplicitFunctions.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/functions/UtilityFunctions.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/models/SourceModel.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/models/TablesModel.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/playground/add_cp_id_for_duplicates/AddCpIdForDuplicates.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/playground/csp_is_overriden/CspIsOverridden.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/playground/csp_is_overriden/Source.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/playground/csp_is_overriden/Tables.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/playground/csp_source_field_name/CspSourceFieldName.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/playground/join_examples/Example1LeftAntiJoin.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/playground/remove_noise_words/RemoveNoiseWords.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/playground/unique_identification/SourceData.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/playground/unique_identification/TablesData.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/playground/unique_identification/UniqueIdentificationApp.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/tutorial/join/Example2LeftAnti.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-cmp/src/main/scala/caspian/CaspianContext.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-cmp/src/main/scala/caspian/CaspianEnv.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-cmp/src/main/scala/caspian/CaspianProcess.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-cmp/src/main/scala/transaction/TransactionProcess.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-cmp/src/test/scala/TransactionProcess.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/common/DataFrameSchema.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/common/SparkSessionBuilder.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-core/src/main/scala/data_frames/Ex1Basics.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/playground/add_cp_orig_nm/AddCpOrigNm.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/playground/apply_synonym/ApplySynonym.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/playground/insert_in_measure_calc/Example1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/practice_ms/GenerateCpIdFlow.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/morgan/constants/SourceToTableMapping.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/morgan/constants/SourceToTableMapping.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/tutorial/join/Example1WithColumn.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/tutorial/join/Example1WithColumn.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/spark-core/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/DatabaseConnection.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/DatabaseSetup.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/EmployeeRepository.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/TestConnection.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/not_working/DatabaseConnection.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/not_working/DatabaseSetup.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/not_working/MorganApp.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/not_working/User.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/not_working/UserRepository.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-core/src/main/scala/not_working/temp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-practice/src/main/scala/models/TablesModel.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/models/TablesModel.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-practice/src/main/scala/playground/add_cp_id_for_duplicates/AddCpIdForDuplicates.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-practice/src/main/scala/playground/add_cp_id_for_duplicates/AddCpIdForDuplicates.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,15 +89,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AddCpIdForDuplicates.executor": "Run",
+    "Application.AddCpOrigNm.executor": "Run",
+    "Application.ApplySynonym.executor": "Run",
     "Application.CountCharacters.executor": "Run",
     "Application.CspIsOverridden.executor": "Run",
     "Application.CspSourceFieldName.executor": "Run",
     "Application.Duplicates.executor": "Run",
+    "Application.Ex1Basics.executor": "Run",
     "Application.Example1.executor": "Run",
     "Application.Example1LeftAntiJoin.executor": "Run",
     "Application.Example1WithColumn.executor": "Run",
     "Application.Example1WordCount.executor": "Run",
     "Application.GenerateAndAssign.executor": "Run",
+    "Application.InsertInMeasureCalc.executor": "Run",
     "Application.JoinCaseClass.executor": "Run",
     "Application.JoinExample1.executor": "Run",
     "Application.JoinWithNull.executor": "Run",
@@ -103,6 +110,7 @@
     "Application.RemoveNoiseWords.executor": "Run",
     "Application.SourceToTable.executor": "Run",
     "Application.TestConnection.executor": "Run",
+    "Application.TransactionProcess.executor": "Run",
     "Application.UniqueIdentificationApp.executor": "Run",
     "Application.UtilityFunctions.executor": "Run",
     "Application.ex1_csp_is_overriden.CspIsOverridden.executor": "Run",
@@ -137,13 +145,13 @@
       <recent name="playground.unique_identification" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemoveNoiseWords">
-    <configuration name="AddCpIdForDuplicates" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="playground.add_cp_id_for_duplicates.AddCpIdForDuplicates" />
+  <component name="RunManager" selected="Application.TransactionProcess">
+    <configuration name="AddCpOrigNm" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="playground.add_cp_orig_nm.AddCpOrigNm" />
       <module name="scala-udemy.spark-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="playground.add_cp_id_for_duplicates.*" />
+          <option name="PATTERN" value="playground.add_cp_orig_nm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CspSourceFieldName" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="playground.csp_source_field_name.CspSourceFieldName" />
+    <configuration name="ApplySynonym" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="playground.apply_synonym.ApplySynonym" />
       <module name="scala-udemy.spark-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="playground.csp_source_field_name.*" />
+          <option name="PATTERN" value="playground.apply_synonym.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,12 +172,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example1LeftAntiJoin" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="playground.join_examples.Example1LeftAntiJoin" />
-      <module name="scala-udemy.spark-practice" />
+    <configuration name="Ex1Basics" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="data_frames.Ex1Basics" />
+      <module name="scala-udemy.spark-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="playground.join_examples.*" />
+          <option name="PATTERN" value="data_frames.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,12 +185,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveNoiseWords" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="playground.remove_noise_words.RemoveNoiseWords" />
+    <configuration name="InsertInMeasureCalc" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="playground.insert_in_measure_calc.InsertInMeasureCalc" />
       <module name="scala-udemy.spark-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="playground.remove_noise_words.*" />
+          <option name="PATTERN" value="playground.insert_in_measure_calc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,26 +198,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniqueIdentificationApp" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="playground.unique_identification.UniqueIdentificationApp" />
-      <module name="scala-udemy.spark-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="playground.unique_identification.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="TransactionProcess" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="TransactionProcess" />
+      <module name="scala-udemy.spark-cmp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RemoveNoiseWords" />
-        <item itemvalue="Application.CspSourceFieldName" />
-        <item itemvalue="Application.AddCpIdForDuplicates" />
-        <item itemvalue="Application.Example1LeftAntiJoin" />
-        <item itemvalue="Application.UniqueIdentificationApp" />
+        <item itemvalue="Application.TransactionProcess" />
+        <item itemvalue="Application.Ex1Basics" />
+        <item itemvalue="Application.ApplySynonym" />
+        <item itemvalue="Application.AddCpOrigNm" />
+        <item itemvalue="Application.InsertInMeasureCalc" />
       </list>
     </recent_temporary>
   </component>

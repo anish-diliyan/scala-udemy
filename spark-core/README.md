@@ -27,3 +27,5 @@ specific use cases.
 * **Low Level Apis:** RDDs and Distributed Variables
 * **High Level (Structured) Apis:** DataFrame, DataSets, Spark Sql
 * **Applications:** Streaming, ML, GraphX, Other Libraries
+
+<div style="text-align: center"><h2>Data Frame</h2></div>

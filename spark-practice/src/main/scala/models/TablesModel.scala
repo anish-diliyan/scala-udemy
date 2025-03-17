@@ -4,7 +4,7 @@ import java.sql.Timestamp
 
 object TablesModel {
   case class CpMaster(
-    counterparty_id: String,
+    counterparty_id: Int,
     cp_name: String,
     cp_address: String,
     cp_country_cd: String,
@@ -64,5 +64,10 @@ object TablesModel {
     event_id: String,
     status_ind: String,
     csp_bus_dt: String
+  )
+
+  case class CpTxnMap(
+    counterparty_id: Int,
+    aml_trans_key: String
   )
 }
