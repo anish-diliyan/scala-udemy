@@ -62,7 +62,7 @@ lazy val sparkCore = (project in file("spark-core"))
     libraryDependencies ++= commonDependencies ++ sparkDependencies ++ dbDependencies
   )
 
-// Morgan subproject
+// Spark practice
 lazy val sparkPractice = (project in file("spark-practice"))
   .settings(
     name := "spark-practice",
@@ -76,6 +76,7 @@ lazy val scalaAnything = (project in file("scala-anything"))
     libraryDependencies ++= commonDependencies ++ sparkDependencies ++ dbDependencies
   )
 
+// Company Project
 lazy val sparkCmp = (project in file("spark-cmp"))
   .settings(
     name := "spark-cmp",

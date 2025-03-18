@@ -7,7 +7,7 @@ import org.apache.spark.sql.DataFrame
 
 object TransactionsReadHelper extends Logging {
 
-  def processTransaction(sources: Seq[AccountIdTypeId])(implicit processCtx: ProcessContext) = {
+  def processTransaction(sources: Seq[AccountIdTypeId])(implicit processCtx: ProcessContext): Unit = {
     logInfo(s"Processing transactions for ${sources.mkString(",")} and date = ${processCtx.cspBusDt} and executionId = ${processCtx.executionId}")
 
     val transactionDF = for(source <- sources) yield processAtSourceSystemLevel(source)

@@ -1,7 +1,7 @@
 target/
 /scala-advanced/target
+/scala-anything/target
 /scala-core/target
+/spark-cmp/target
 /spark-core/target
 /spark-practice/target
-postgres/data/
-postgres/logs/
