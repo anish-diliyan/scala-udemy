@@ -44,7 +44,4 @@ if !errorlevel! neq 0 (
     exit /b 1
 )
 
-echo Connecting to database %DB_NAME%...
-"%PSQL%" -U %DB_USER% -d %DB_NAME%
-
 exit /b 0
