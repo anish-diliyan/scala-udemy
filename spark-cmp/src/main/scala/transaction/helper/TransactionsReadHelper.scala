@@ -10,13 +10,11 @@ object TransactionsReadHelper extends Logging {
 
   def processTransaction(sources: Seq[AccountIdTypeId])(implicit processCtx: ProcessContext): DataFrame = {
     logInfo(s"Processing transactions for ${sources.mkString(",")} and date = ${processCtx.cspBusDt} and executionId = ${processCtx.executionId}")
-
     val transactionDataFrames = for(source <- sources) yield processAtSourceSystemLevel(source)
     val processedTransactionDF = transactionDataFrames match {
       case Seq(_, _*) => DataFrameUtils.sefUnionAsMissingColumnAsNUll(transactionDataFrames).get
       case _ => transactionDataFrames.head
     }
-    processedTransactionDF.show()
     processedTransactionDF
   }
 

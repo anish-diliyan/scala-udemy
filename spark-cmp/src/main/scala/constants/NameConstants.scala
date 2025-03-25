@@ -11,7 +11,7 @@ object NameConstants {
 
   val RECIPIENT_NM = "recipient_nm"
   val RECIPIENT_ADDR = "recipient_addr"
-  val FURTHER_RECIPIENT_BNK_ACCT = "further_recipient_bnk_acct"
+  val RECIPIENT_BNK_ACCT = "recipient_bnk_acct"
   val RECIPIENT_BNK_ID = "recipient_bnk_id"
   val RECIPIENT_BNK_NM = "recipient_bnk_nm"
   val RECIPIENT_BNK_ADDR = "recipient_bnk_addr"
@@ -26,4 +26,7 @@ object NameConstants {
   val AML_RGN_CD = "aml_rgn_cd"
   val CR_DR_CD = "cr_dr_cd"
 
+  val TXN_TYP = "txn_typ"
+  val INCOMING = "incoming"
+  val OUTGOING = "outgoing"
 }
