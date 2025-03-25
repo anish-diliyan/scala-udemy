@@ -3,6 +3,7 @@ package constants
 object TableColumnName {
 
   val NAME = "name"
+  val ORIG_NAME = "orig_name"
   val ADDRESS = "address"
   val BANK_ACCT = "bank_acct"
 

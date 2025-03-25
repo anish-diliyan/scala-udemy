@@ -2,9 +2,12 @@ package transaction.helper
 
 import constants.AccountIdTypeId._
 import constants.ProcessContext
+import constants.TableColumnName.{AML_TRANS_KEY, NAME, ORIG_NAME}
 import org.apache.spark.internal.Logging
 import org.apache.spark.sql.DataFrame
+import org.apache.spark.sql.functions.col
 import utils.DataFrameUtils
+import implicits.CpUtilityImplicits._
 
 object TransactionsReadHelper extends Logging {
 
@@ -15,6 +18,7 @@ object TransactionsReadHelper extends Logging {
       case Seq(_, _*) => DataFrameUtils.sefUnionAsMissingColumnAsNUll(transactionDataFrames).get
       case _ => transactionDataFrames.head
     }
+    processedTransactionDF.show()
     processedTransactionDF
   }
 
@@ -23,7 +27,7 @@ object TransactionsReadHelper extends Logging {
       case EBOSS => ProcessEbossHelper.processEboss
       case RMBSA => ProcessRmbsaHelper.processRmbsa
     }
-    processedSourceDF
+    processedSourceDF.withColumn(ORIG_NAME, col(NAME)).dropDuplicates(AML_TRANS_KEY).cleanse
   }
 
 }

@@ -8,6 +8,13 @@ object SourceData {
       "2025-03-24", "10001",
       "EBOSS", "EBOSS", "CS", "WI", "AUS", "I"
     ),
+    // added duplicates to check drop duplicates on aml trans key
+    SourceModel(
+      "Priya Eboss Sharma", "Delhi - 110001", "456124", "214504", "HDFC Bank", "Connaught Place, Delhi",
+      "Bipin Eboss  Pandey", "Dilia, Bihar - 802201", "100250", "214100", "Punjab National Bank", "Narayanpur, Bihar",
+      "2025-03-24", "10001",
+      "EBOSS", "EBOSS", "CS", "WI", "AUS", "I"
+    ),
     SourceModel(
       "Ravi Eboss Kumar", "Chennai, Tamil Nadu - 600001", "567235", "214605", "Indian Bank", "Anna Salai, Chennai",
       "Chandan Eboss Pandey", "Dilia, Bihar - 802201", "101250", "214100", "Punjab National Bank", "Narayanpur, Bihar",
@@ -52,6 +59,13 @@ object SourceData {
     )
   )
   val rmbsa: Seq[SourceModel] = Seq(
+    SourceModel(
+      "Priya Rmbsa Sharma", "Delhi - 110001", "456124", "214504", "HDFC Bank", "Connaught Place, Delhi",
+      "Bipin Rmbsa Pandey", "Dilia, Bihar - 802201", "100250", "214100", "Punjab National Bank", "Narayanpur, Bihar",
+      "2025-03-24", "10001",
+      "RMBSA", "RMBSA", "CS", "WI", "SA", "I"
+    ),
+    // added duplicates to check drop duplicates on aml trans key
     SourceModel(
       "Priya Rmbsa Sharma", "Delhi - 110001", "456124", "214504", "HDFC Bank", "Connaught Place, Delhi",
       "Bipin Rmbsa Pandey", "Dilia, Bihar - 802201", "100250", "214100", "Punjab National Bank", "Narayanpur, Bihar",

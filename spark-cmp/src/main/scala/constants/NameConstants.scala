@@ -29,4 +29,5 @@ object NameConstants {
   val TXN_TYP = "txn_typ"
   val INCOMING = "incoming"
   val OUTGOING = "outgoing"
+  val CP_ORIG_NM = "cp_orig_nm"
 }
