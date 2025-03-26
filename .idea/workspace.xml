@@ -5,34 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecbea836-8c25-4a05-8687-e0a8ada06f09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spark-cmp/src/main/resources/db/changelog/changes/001-initial-schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-cmp/src/main/resources/db/changelog/db.changelog-master.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-cmp/src/main/resources/db/liquibase.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-cmp/src/main/scala/config/DataSourceConfig.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-cmp/src/main/scala/config/LiquibaseConfig.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spark-cmp/src/main/scala/config/LiquibaseMigrate.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/scala-udemy.scala-anything.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/scala-udemy.scala-anything.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/scala-udemy.scala-udemy-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/scala-udemy.scala-udemy-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/scala-udemy.spark-cmp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/scala-udemy.spark-cmp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/scala-udemy.spark-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/scala-udemy.spark-core.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-cmp/src/main/scala/transaction/TransactionProcess.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-cmp/src/main/scala/transaction/TransactionProcess.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-cmp/src/test/scala/EBOSSTransactionProcess.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-cmp/src/test/scala/EBOSSTransactionProcess.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark-cmp/src/test/scala/RMBSATransactionProcess.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-cmp/src/test/scala/RMBSATransactionProcess.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-cmp/src/main/resources/db/liquibase.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spark-cmp/src/main/resources/db/liquibase.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-cmp/src/main/scala/config/DataSourceConfig.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-cmp/src/main/scala/config/DataSourceConfig.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark-cmp/src/main/scala/config/LiquibaseMigrate.scala" beforeDir="false" afterPath="$PROJECT_DIR$/spark-cmp/src/main/scala/config/LiquibaseMigrate.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
