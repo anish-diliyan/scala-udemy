@@ -8,7 +8,7 @@ object RMBSATransactionProcess extends App {
   val context: CaspianContext = CaspianContext()
   val currentDate: LocalDate = LocalDate.now().minusDays(1) // yesterday's date
   val environment: CaspianEnv = CaspianEnv.DEV
-  val arguments: Array[String] = Array(currentDate.toString, "executionId", "RMBSA")
+  val arguments: Array[String] = Array(currentDate.toString, "executionId", "RMBSA", "true")
   // Run the process
   process.run(ctx = context, date = currentDate, env = environment, additionalArgs = arguments)
 }

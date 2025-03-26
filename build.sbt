@@ -26,7 +26,9 @@ lazy val sparkDependencies = Seq(
 
 // data base dependencies
 lazy val dbDependencies = Seq(
-  "org.postgresql" % "postgresql" % "42.7.5"
+  "org.liquibase" % "liquibase-core" % "4.25.0",
+  "org.postgresql" % "postgresql" % "42.7.5",
+  "com.zaxxer" % "HikariCP" % "5.0.1"
 )
 
 // Test options
